@@ -17,4 +17,15 @@ body{
 
 .screen-header__icons span{
     margin-left:25px;
+    position: relative;
+}
+
+.screen-header__set{
+    background-color: tomato;
+    width:6px;
+    height: 6px;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+    bottom: 15px; 
 }
