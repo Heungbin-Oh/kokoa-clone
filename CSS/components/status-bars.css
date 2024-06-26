@@ -1,7 +1,10 @@
 .status-bar{
+    position: fixed;
+    Top: 0;
+    width:100%;
     display: flex;
     justify-content: center;
-    padding: 5px 3px;
+    padding: 5px 3px;   
 }
 .status-bar_column{
     width: 33%;
@@ -19,4 +22,7 @@
 
 .status-bar_column:first-child span{
     margin-right:5px;
+}
+.status-bar_column:last-child span{
+    margin-right:2px;
 }

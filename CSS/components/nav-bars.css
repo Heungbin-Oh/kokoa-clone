@@ -1,0 +1,44 @@
+.nav{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /*To limit box size not to go out of the box border
+    By doing this, box size does not increase when you add padding size and set the width as well*/
+    box-sizing: border-box; 
+    background-color: #f9f9fa;
+    padding: 20px 50px;
+    border-top: 1px solid rgba(0,0,0,0.2);
+
+}
+.nav__ul{
+    display:flex;
+    justify-content: space-between;
+}
+.nav__a{
+    position: relative;
+    color: #2e363e;
+}
+.nav__notification{
+    background-color: tomato;
+    width:30px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    left: 17px;
+    bottom: 17px;
+}
+.nav__find{
+    background-color: tomato;
+    width:6px;
+    height: 6px;
+    border-radius: 3px;
+    display: flex; 
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+}
